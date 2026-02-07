@@ -3,8 +3,14 @@ name = "pe"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+path = "src/lib.rs"
+
 [[bin]]
-name = "problem1"
-path = "1/1.rs"
+name = "001"
+path = "problems/001-050/001.rs"
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--html-in-header", "katex-header.html"]
 
 [dependencies]

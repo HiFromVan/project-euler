@@ -1,1 +1,0 @@
-$$ S = \underbrace{\frac{3 \cdot \lfloor \frac{999}{3} \rfloor (1 + \lfloor \frac{999}{3} \rfloor)}{2}}_{3 \text{的倍数之和}} + \underbrace{\frac{5 \cdot \lfloor \frac{999}{5} \rfloor (1 + \lfloor \frac{999}{5} \rfloor)}{2}}_{5 \text{的倍数之和}} - \underbrace{\frac{15 \cdot \lfloor \frac{999}{15} \rfloor (1 + \lfloor \frac{999}{15} \rfloor)}{2}}_{15 \text{的倍数之和}} $$
