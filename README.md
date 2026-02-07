@@ -8,4 +8,8 @@
 
 ---
 
+$$e^{i\pi} + 1 = 0$$
+
+*"Now I will have less distraction."* — Leonhard Euler
+
 *"Mathematics is the art of giving the same name to different things."* — Henri Poincaré
