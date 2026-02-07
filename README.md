@@ -1,75 +1,55 @@
-# Project Euler Solutions
+# Project Euler 刷题记录
 
-本仓库收录了 [Project Euler](https://projecteuler.net/) 题目的求解代码与数学思路分析。
+我的 [Project Euler](https://projecteuler.net/) 解题笔记，用 Rust 写代码，顺便整理一下数学思路。
 
-## 项目简介
+## 为什么做这个
 
-Project Euler 是一个面向数学与编程爱好者的在线题库，题目涵盖数论、组合数学、算法优化等多个领域。本项目旨在：
+Project Euler 的题目挺有意思的，既能练编程又能复习数学。每次做完题都想记录一下思路，不然过段时间就忘了当时是怎么想的。
 
-- 📝 提供清晰的代码实现
-- 🧮 深入剖析背后的数学原理
-- 💡 探索高效的算法策略
+## 怎么跑代码
 
-## 技术栈
+```bash
+# 跑第 1 题
+cargo run --bin problem1
 
-- **语言**: Rust
-- **构建工具**: Cargo
+# 跑第 N 题
+cargo run --bin problemN
+```
 
-## 项目结构
+## 目录结构
 
 ```
 project-euler/
 ├── 1/
-│   ├── 1.rs          # 问题 1 的 Rust 实现
-│   └── 1.markdown    # 问题 1 的数学思路与解析
-├── Cargo.toml        # Rust 项目配置
-└── README.md         # 项目说明文档
+│   ├── 1.rs          # 代码实现
+│   └── 1.markdown    # 解题思路和数学推导
+├── 2/
+│   ├── 2.rs
+│   └── 2.markdown
+└── ...
 ```
 
-## 运行方式
+每道题一个文件夹，代码和笔记放一起，方便查看。
 
-每个问题都被配置为独立的二进制程序，可通过以下命令运行：
+## 已完成题目
 
-```bash
-# 运行问题 1
-cargo run --bin problem1
+| # | 题目 | 难度 | 笔记 |
+|---|------|------|------|
+| 1 | Multiples of 3 or 5 | ⭐ | [思路](1/1.markdown) |
 
-# 运行其他问题（以问题 N 为例）
-cargo run --bin problemN
-```
+## 关于笔记
 
-## 题目列表
+每道题的 `.markdown` 文件里会写：
+- 题目理解
+- 数学推导（如果有的话）
+- 代码思路
+- 踩过的坑
 
-| 编号 | 标题 | 难度 | 状态 |
-|------|------|------|------|
-| 1 | Multiples of 3 or 5 | ⭐ | ✅ |
+## 技术栈
 
-## 学习笔记
-
-每道题目的 `.markdown` 文件包含：
-
-- 问题描述
-- 数学建模与推导
-- 算法复杂度分析
-- 优化思路与技巧
-
-## 贡献指南
-
-欢迎提交 Issue 或 Pull Request 来：
-
-- 指出代码或数学推导中的错误
-- 分享更优雅的解法
-- 补充新的题目解答
-
-## 许可证
-
-本项目采用 MIT 许可证开源。
-
-## 相关链接
-
-- [Project Euler 官网](https://projecteuler.net/)
-- [Rust 官方文档](https://doc.rust-lang.org/)
+- Rust（练手 + 性能好）
+- Cargo（构建工具）
 
 ---
 
-*Keep solving, keep learning.* 🚀
+慢慢刷，不着急 🐢
